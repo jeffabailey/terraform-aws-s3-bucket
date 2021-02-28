@@ -1,5 +1,5 @@
 module "object_lock_configuration_example" {
-  source  = "operatehappy/s3-bucket/aws"
+  source  = "jeffabailey/s3-bucket/aws"
   version = "1.2.0"
 
   name = "oh-demos-object-lock-configuration-example"

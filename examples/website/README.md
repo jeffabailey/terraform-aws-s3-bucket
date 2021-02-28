@@ -1,6 +1,6 @@
 # Example: `website`
 
-> This is an example of a _website_ configuration of the [terraform-aws-s3-bucket Module](https://registry.terraform.io/modules/operatehappy/s3-bucket/)
+> This is an example of a _website_ configuration of the [terraform-aws-s3-bucket Module](https://registry.terraform.io/modules/jeffabailey/s3-bucket/)
 
 ## Table of Contents
 
@@ -12,7 +12,7 @@
 
 ## Installation
 
-For a list of installation instructions, see the [Readme document](https://registry.terraform.io/modules/operatehappy/s3-bucket/) on the Terraform Registry.
+For a list of installation instructions, see the [Readme document](https://registry.terraform.io/modules/jeffabailey/s3-bucket/) on the Terraform Registry.
 
 ## Usage
 
@@ -20,7 +20,7 @@ A _website_ configuration of the `terraform-aws-s3-bucket` Module could look lik
 
 ```hcl
 module "website_example" {
-  source  = "operatehappy/s3-bucket/aws"
+  source  = "jeffabailey/s3-bucket/aws"
   version = "1.2.0"
 
   name   = "oh-demos-website-example"
@@ -53,6 +53,6 @@ module "website_example" {
 
 ## Module Variables and Outputs
 
-For a list of available variables and outputs, see the [Readme document](https://registry.terraform.io/modules/operatehappy/s3-bucket/) on the Terraform Registry.
+For a list of available variables and outputs, see the [Readme document](https://registry.terraform.io/modules/jeffabailey/s3-bucket/) on the Terraform Registry.
 
-A copy of this document (as `README.md`) is also available on [GitHub](https://github.com/operatehappy/terraform-aws-s3-bucket/blob/master/README.md#readme).
+A copy of this document (as `README.md`) is also available on [GitHub](https://github.com/jeffabailey/terraform-aws-s3-bucket/blob/master/README.md#readme).

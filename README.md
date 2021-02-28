@@ -33,7 +33,7 @@ Add the module to your Terraform resources like so:
 
 ```hcl
 module "simple_example" {
-  source  = "operatehappy/s3-bucket/aws"
+  source  = "jeffabailey/s3-bucket/aws"
   version = "1.2.0"
 
   name = "oh-demo-simple-example"
@@ -48,9 +48,9 @@ module "simple_example" {
 }
 ```
 
-Then, fetch the module from the [Terraform Registry](https://registry.terraform.io/modules/operatehappy/s3-bucket) using `terraform get`.
+Then, fetch the module from the [Terraform Registry](https://registry.terraform.io/modules/jeffabailey/s3-bucket) using `terraform get`.
 
-Additional usage examples are available in the `examples` directory via [GitHub](https://github.com/operatehappy/terraform-aws-s3-bucket/tree/master/examples).
+Additional usage examples are available in the `examples` directory via [GitHub](https://github.com/jeffabailey/terraform-aws-s3-bucket/tree/master/examples).
 
 ### Inputs
 
@@ -93,9 +93,9 @@ Additional usage examples are available in the `examples` directory via [GitHub]
 
 ## Author Information
 
-This module is maintained by the contributors listed on [GitHub](https://github.com/operatehappy/terraform-aws-s3-bucket/graphs/contributors).
+This module is maintained by the contributors listed on [GitHub](https://github.com/jeffabailey/terraform-aws-s3-bucket/graphs/contributors).
 
-Development of this module was sponsored by [Operate Happy](https://github.com/operatehappy).
+Development of this module was sponsored by [Operate Happy](https://github.com/jeffabailey).
 
 ## License
 
